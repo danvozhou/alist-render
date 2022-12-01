@@ -17,7 +17,7 @@ services:
         value: remotemysql.com
         sync: false
       - key: DB_PORT
-         value: 3306
+        value: 3306
         sync: false
       - key: DB_USER
         # value: db_user
@@ -29,8 +29,8 @@ services:
         # value: db_name
         sync: false
       - key: DB_TABLE_PREFIX
-         value: alist_
+        value: alist_
         sync: false
       - key: CDN
-         value: https://npm.elemecdn.com/alist-web@$version/dist
+        value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
