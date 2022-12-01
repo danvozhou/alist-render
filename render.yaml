@@ -11,10 +11,10 @@ services:
       - key: PORT
         value: 5289
       - key: DB_TYPE
-        # value: MYSQL
+        value: MYSQL
         sync: false
       - key: DB_HOST
-        # value: remotemysql.com
+        value: remotemysql.com
         sync: false
       - key: DB_PORT
          value: 3306
