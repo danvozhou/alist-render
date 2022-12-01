@@ -12,13 +12,10 @@ services:
         value: 5289
       - key: DB_TYPE
         value: MYSQL
-        sync: false
       - key: DB_HOST
         value: remotemysql.com
-        sync: false
       - key: DB_PORT
         value: 3306
-        sync: false
       - key: DB_USER
         # value: db_user
         sync: false
@@ -30,7 +27,5 @@ services:
         sync: false
       - key: DB_TABLE_PREFIX
         value: alist_
-        sync: false
       - key: CDN
         value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
